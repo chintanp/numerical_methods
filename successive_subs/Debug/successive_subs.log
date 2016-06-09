@@ -1,0 +1,14 @@
+﻿Build started 6/7/2016 6:08:54 PM.
+     1>Project "C:\cygwin64\home\Chintan\ACADOtoolkit\build\successive_subs\successive_subs.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\successive_subs.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\cygwin64\home\Chintan\ACADOtoolkit /IC:\cygwin64\home\Chintan\ACADOtoolkit\acado /IC:\cygwin64\home\Chintan\ACADOtoolkit\external_packages /I"C:\cygwin64\home\Chintan\ACADOtoolkit\external_packages\qpOASES-3.0beta\include" /IC:\cygwin64\home\Chintan\ACADOtoolkit\build /ZI /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D WIN32 /D _WINDOWS /D _DEBUG /D __DEBUG__ /D ACADO_CMAKE_BUILD /D WIN32 /D __NO_COPYRIGHT__ /D snprintf=_snprintf /D usleep=Sleep /D sleep=Sleep /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D __NO_PIPES__ /D "GNUPLOT_EXECUTABLE=\"C:/gnuplot/bin/bin/gnuplot.exe\"" /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4068 /analyze- /errorReport:prompt successive_subs.cpp
+         successive_subs.cpp
+     1>c:\cygwin64\home\chintan\acadotoolkit\build\successive_subs\successive_subs.cpp(19): error C2296: '^' : illegal, left operand has type 'double'
+     1>c:\cygwin64\home\chintan\acadotoolkit\build\successive_subs\successive_subs.cpp(19): error C2297: '^' : illegal, right operand has type 'double'
+     1>Done Building Project "C:\cygwin64\home\Chintan\ACADOtoolkit\build\successive_subs\successive_subs.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40
